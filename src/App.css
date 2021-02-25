@@ -65,6 +65,17 @@ p {
 
 .title h1 {
     color: seashell;
+    font-size: 2rem;
+}
+
+.websites {
+    text-align: center;
+    margin-left: -15px;
+}
+
+.websites h2 {
+    color: seashell;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -74,5 +85,9 @@ p {
     }
     .title h1 {
         font-size: 1.5rem;
+    }
+    .websites h2 {
+        color: seashell;
+        font-size: 1rem;
     }
 }

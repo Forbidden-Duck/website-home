@@ -11,13 +11,16 @@ export default function App() {
                 }}
             ></div>
             <main>
-                <div className="title">
+                <section className="title">
                     <img
                         src={process.env.PUBLIC_URL + "/resources/IAmSquare.jpg"}
                         alt="Professional"
                     />
                     <h1>Hello, I am Harrison Howard</h1>
-                </div>
+                </section>
+                <section className="websites">
+                    <h2>My available websites are</h2>
+                </section>
             </main>
         </>
     );
