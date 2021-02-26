@@ -54,7 +54,6 @@ p {
 .title {
     text-align: center;
     padding-top: 50px;
-    margin-left: -15px;
 }
 
 .title img {
@@ -70,12 +69,19 @@ p {
 
 .websites {
     text-align: center;
-    margin-left: -15px;
 }
 
 .websites h2 {
     color: seashell;
     font-size: 1.2rem;
+}
+
+.website-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--spacing-5);
 }
 
 @media only screen and (max-width: 500px) {

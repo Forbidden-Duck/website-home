@@ -5,10 +5,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-    padding-left: var(--spacing-2);
-}
-
 a {
     color: var(--color-text-link);
 }

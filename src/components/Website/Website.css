@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container>.image-container {
+    text-align: left;
+}
+
+.image-container>img {
+    vertical-align: top;
+    max-width: 100%;
+    max-height: 150px;
+    min-width: 118px;
+    min-height: 118px;
+}
+
+.container>.details-container {
+    text-align: left;
+    margin-top: -24px;
+    margin-left: var(--spacing-1);
+    min-width: 300px;
+}
