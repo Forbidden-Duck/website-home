@@ -10,7 +10,8 @@ export default function Website(props) {
                 <div className="container">
                     <div className="image-container">
                         <img
-                            src={process.env.PUBLIC_URL + "/resources/IAmSquare.jpg"}
+                            src={website.image}
+                            alt={website.title}
                         />
                     </div>
                     <div className="details-container">

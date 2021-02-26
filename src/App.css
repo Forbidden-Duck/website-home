@@ -82,6 +82,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-left: var(--spacing-5);
+    margin-right: var(--spacing-5);
 }
 
 @media only screen and (max-width: 500px) {
@@ -96,4 +97,22 @@ p {
         color: seashell;
         font-size: 1rem;
     }
+}
+
+@media only screen and (max-width: 880px) {
+    .image-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .image-container {
+        display: none;
+    }
+}
+
+.website-list {
+    display: grid;
+    margin-left: var(--spacing-5);
+    margin-right: var(--spacing-5);
 }

@@ -19,5 +19,6 @@
     text-align: left;
     margin-top: -24px;
     margin-left: var(--spacing-1);
-    min-width: 300px;
+    min-height: 118px;
+    max-width: 300px;
 }
