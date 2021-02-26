@@ -109,10 +109,9 @@ p {
     .image-container {
         display: none;
     }
-}
-
-.website-list {
-    display: grid;
-    margin-left: var(--spacing-5);
-    margin-right: var(--spacing-5);
+    .website-list {
+        display: grid;
+        margin-left: var(--spacing-5);
+        margin-right: var(--spacing-5);
+    }
 }

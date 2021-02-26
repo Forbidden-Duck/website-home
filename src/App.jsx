@@ -23,9 +23,12 @@ export default function App() {
                 <section className="websites">
                     <h2>My available websites are</h2>
                     <div className="website-list">
-                        {
-                            websites.map(website => <Website website={website} />)
-                        }
+                        {websites.map(website => (
+                            <Website
+                                key={website.id}
+                                website={website}
+                            />
+                        ))}
                     </div>
                 </section>
             </main>

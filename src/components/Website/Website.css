@@ -22,3 +22,13 @@
     min-height: 118px;
     max-width: 300px;
 }
+
+.details-container a {
+    color: #9e33be;
+    text-decoration: none;
+}
+
+.details-container a:hover {
+    color: #69237e;
+    text-decoration: none;
+}
